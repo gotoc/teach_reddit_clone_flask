@@ -1,0 +1,1 @@
+rm app.db && python db_create.py && python run.py

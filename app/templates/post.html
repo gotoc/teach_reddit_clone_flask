@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+- <a href="/r/{{post.subreddit}}">r/{{post.subreddit}}</a>
+<h1>{{post.url}}</h1>
+{% from "_formhelpers.html" import render_field %}
+<form method=post>
+  <dl>
+    {{ render_field(form.text) }}
+  </dl>
+  <p><input type=submit value=Submit>
+</form>
+
+<ul>
+{% for comment in comments %}
+  <li>
+    {{comment.text}}
+  </li>
+{% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+{% from "_formhelpers.html" import render_field %}
+<form method=post action="/create_post">
+  <dl>
+    {{ render_field(form.title) }}
+    {{ render_field(form.url) }}
+    {{ render_field(form.subreddit) }}
+  </dl>
+  <p><input type=submit value=Submit>
+</form>
+{% endblock %}
