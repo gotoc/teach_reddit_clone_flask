@@ -13,8 +13,6 @@ How to install pip on
 
     python run.py
 
-## Link to Slides
-(todo: shazeline)
-
-## Link to Video
-(todo: acm media team)
+## Links
++ [Slides](http://slideshare.net/uclaacm/buil-43571286)
++ Video (Todo)
