@@ -15,4 +15,4 @@ How to install pip on
 
 ## Links
 + [Slides](http://slideshare.net/uclaacm/buil-43571286)
-+ Video (Todo)
++ [Screencast](http://shahidchohan.com/flask_reddit_talk/)
